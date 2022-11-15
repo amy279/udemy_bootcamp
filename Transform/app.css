@@ -1,6 +1,6 @@
 h1 {
     background-color: #fbf8cc;
-    border: 5px solid #8eecf5;
+    border: 5px solid #cfbaf0;
     color: black;
     padding: 0.7em;
     width: 300px;
@@ -12,11 +12,11 @@ h1 {
 }
 
 h1:nth-of-type(2n) {
-    background-color: #cfbaf0;
+    background-color: #fde4cf;
 }
 h1:nth-of-type(3n) {
-    background-color: #a3c4f3;
+    background-color: #ffcfd2;
 }
 h1:nth-of-type(4n) {
-    background-color: #ffcfd2;
+    background-color: #f1c0e8;
 }
