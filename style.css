@@ -1,0 +1,22 @@
+h2 {
+    color: black;
+    text-align: center;
+    width: 50%;
+    font-weight: 900;
+    font-size: 50px;
+    text-decoration: orange wavy underline;
+    letter-spacing: 10px;
+    font-family: monospace;
+}
+button {
+    color: teal;
+}
+p {
+    color:olive;
+    text-align: right;
+    font-weight: bold;
+    line-height: 2;
+}
+a {
+    text-decoration: none;
+}

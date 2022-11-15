@@ -1,0 +1,19 @@
+h1 {
+    background-color: #fbf8cc;
+    border: 5px solid #b9fbc0;
+    color: black;
+    padding: 0.7em;
+    width: 300px;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 20px auto;     /*top&bottm, left&right*/
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+h1:nth-of-type(2n) {
+    background-color: #cfbaf0;
+}
+h1:nth-of-type(3n) {
+    background-color: #a3c4f3;
+}
