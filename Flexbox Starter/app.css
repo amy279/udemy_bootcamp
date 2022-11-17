@@ -1,0 +1,48 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    background-color: #003049;
+    width: 90%;
+    /* height: 500px; */
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: flex-end; */
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+
+    /* flex-direction: column;
+    justify-content: center;    //flex-start flext-end space-between space-around space-evenly
+    align-items: flex-start;    // flex-start center flex-end baseline etc.
+    flex-wrap: wrap;
+    align-content: space-between;  flex-wrap이 있을 때만 의미있다.  */
+
+    /* justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;    // wrap-reverse가 되므로 교차축의 정렬 방향이 바뀌어서 flex-end이지만 flex-start처럼 보임 */
+}
+
+#container div {
+    width: 200px;
+    height: 200px;
+    /* max-width: 200px; */
+    text-align: center;
+    flex-basis: 200px;
+    /* flex-grow: 1; */
+}
+
+div:nth-of-type(1) {
+    /* flex-grow: 1; */
+    flex-shrink: 2;
+}
+
+div:nth-of-type(5) {
+    /* flex-grow: 2; */
+    flex-shrink: 0;
+}
