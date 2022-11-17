@@ -6,8 +6,9 @@ section {
     background-size: 20%;
     background-position: bottom; */
     font-family: 'Anton', sans-serif;
-    background: center/40% no-repeat url(https://images.unsplash.com/photo-1664284565070-a6a437f75173?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDYyfHFQWXNEenZKT1ljfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60) blueviolet;
+    background: center/90% no-repeat url(https://images.pexels.com/photos/771881/pexels-photo-771881.jpeg?cs=srgb&dl=pexels-reynaldo-brigworkz-brigantty-771881.jpg&fm=jpg) rgb(233, 88, 136);
     margin: 0 auto;
     font-size: 100px;
     color: white;
+    text-align: center;
 }
